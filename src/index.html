@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Проверка валидности кредитных карт</title>
+</head>
+<body>
+<div class="card-checker">
+  <ul class="cards-icons">
+    <li>
+      <span class="card visa" title="visa">Visa</span>
+      <span class="card mastercard" title="mastercard">Mastercard</span>
+      <span class="card world" title="Мир">Мир</span>
+      <span class="card american-express" title="american-express">american-express</span>
+      <span class="card discover" title="discover">discover</span>
+    </li>
+  </ul>
+  <form id="form" class="validation-form">
+    <input type="number" id="card-number" class="card-input" placeholder="Номер карты">
+    <button id="submit-button" class="btn-success">Validate</button>
+  </form>
+  <span id="valid" class="show">Valid</span>
+  <span id="not-valid" class="show">Not valid</span>
+</div>
+</body>
+</html>
